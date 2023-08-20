@@ -3,8 +3,25 @@ CodeGPT is a revolutionary tool designed to expedite code generation using minim
 <br>
 
 ![CodeGPT](static/images/1.png)
+# CodeGPT can generate code in multiple programming languages. These are:
 
-### Key Features
+- **Python** 
+- **JavaScript** 
+- **Java**
+- **C++**
+- **C#**
+- **Ruby**
+- **PHP** 
+- **Swift** 
+- **Kotlin** 
+- **Go** 
+- **Rust**
+etc
+
+
+
+
+# Key Features
 
 - **Efficient Code Generation:** CodeGPT enables users to generate code swiftly by inputting only a couple of prompt words.
 - **Cutting-Edge Technology:** Developed using advanced technologies like OpenAI and LangChain.
@@ -13,7 +30,7 @@ CodeGPT is a revolutionary tool designed to expedite code generation using minim
 
 Get started with CodeGPT today and streamline your code creation process like never before!
 
-## Steps to Run it
+# Steps to Run it
 ### 1. Cloning the Repository
 ```bash
 git clone https://github.com/MANMEET75/CodeGPT.git
