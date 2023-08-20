@@ -1,31 +1,9 @@
-from flask import Flask, render_template,jsonify,request
-from flask_cors import CORS
-import requests,openai,os
-from dotenv.main import load_dotenv
-from langchain.prompts.pipeline import PipelinePromptTemplate
-from langchain.prompts.prompt import PromptTemplate
-import pyttsx3
-app = Flask(__name__)
-CORS(app)
-load_dotenv()
-API = os.environ['OPENAI_API_KEY']
+from src.utils import *
 
 @app.route('/static/<path:filename>')
 def serve_static(filename):
     return app.send_static_file(filename)
 
-def speak(message, voice="default"):
-    engine = pyttsx3.init()
-    voices = engine.getProperty('voices')
-    if voice == "male":
-        engine.setProperty('voice', voices[0].id)
-    elif voice == "female":
-        engine.setProperty('voice', voices[1].id)
-    else:
-        engine.setProperty('voice', voices[0].id)  # Default to male voice
-
-    engine.say(message)
-    engine.runAndWait()
 
 @app.route('/')
 def index():
