@@ -1,20 +1,31 @@
-# CodeGPT
-<img src="static/images/1.png">
-I've developed CodeGPT, a revolutionary tool designed to streamline code generation using just a couple of prompt words. This empowers users to expedite their code creation process for everyday tasks, significantly enhancing productivity. The development of this cutting-edge AI solution involved leveraging technologies such as OpenAI and LangChain. Crafting an intuitive and sophisticated user interface was achieved through my proficiency in web development. Finally, I ensured seamless deployment on an AWS EC2-ECR instance by employing efficient CI/CD pipelines.
+# CodeGPT: Streamlining Code Generation
+CodeGPT is a revolutionary tool designed to expedite code generation using minimal prompts, boosting productivity for everyday coding tasks.
+<br>
+
+![CodeGPT](static/images/1.png)
+
+### Key Features
+
+- **Efficient Code Generation:** CodeGPT enables users to generate code swiftly by inputting only a couple of prompt words.
+- **Cutting-Edge Technology:** Developed using advanced technologies like OpenAI and LangChain.
+- **User-Friendly Interface:** Crafted an intuitive and sophisticated user interface through expertise in web development.
+- **Seamless Deployment:** Ensured smooth deployment on an AWS EC2-ECR instance using efficient CI/CD pipelines.
+
+Get started with CodeGPT today and streamline your code creation process like never before!
 
 ## Steps to Run it
 ### 1. Cloning the Repository
 ```bash
-git clone https://github.com/MANMEET75/Infrared-OpenAIChatBot.git
+git clone https://github.com/MANMEET75/CodeGPT.git
 ```
 ### 2. Creating the virtual environment using anaconda
 ```bash
-conda create -p venv python=3.10 -y
+conda create -p codegpt python=3.10 -y
 ```
 
 ### 3. Activate the virtual environment
 ```bash
-conda activate venv/
+conda activate codegpt/
 ```
 
 ### 4. Installing the dependencies
@@ -22,21 +33,13 @@ conda activate venv/
 pip install -r requirements.txt
 ```
 
-### 5. Run the following commands in your anaconda prompt one by one
-#### First Command
-```bash
-conda install -c pytorch faiss-cpu
-```
-
-#### Second Command
-```bash
-conda install -c conda-forge faiss
-```
-
-## 6. Check the InfraBot
+## 5. Check the CodeGPT
 ```bash
 python app.py
 ```
+
+## 7. Please access the provided link through your terminal.
+![CodeGPT](static/images/2.png)
 
 # AWS-CICD-Deployment-with-Github-Actions
 
