@@ -25,7 +25,7 @@ etc
 
 - **Efficient Code Generation:** CodeGPT enables users to generate code swiftly by inputting only a couple of prompt words.
 - **Cutting-Edge Technology:** Developed using advanced technologies like OpenAI and LangChain.
-- **User-Friendly Interface:** Crafted an intuitive and sophisticated user interface through expertise in web development.
+- **User-Friendly Interface:** Crafted an intuitive and sophisticated user interface using Flask Framework through expertise in web development.
 - **Seamless Deployment:** Ensured smooth deployment on an AWS EC2-ECR instance using efficient CI/CD pipelines.
 
 Get started with CodeGPT today and streamline your code creation process like never before!
