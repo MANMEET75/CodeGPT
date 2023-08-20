@@ -39,6 +39,7 @@ python app.py
 ```
 
 ## 7. Please access the provided link through your terminal.
+Upon initiation, you'll encounter a user interface similar to the following design:
 ![CodeGPT](static/images/2.png)
 
 # AWS-CICD-Deployment-with-Github-Actions
